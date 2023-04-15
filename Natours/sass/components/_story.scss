@@ -36,9 +36,7 @@
   }
 
   &__caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    @include absoluteCentering;
     transform: translate(-50%, 20%);
     opacity: 0;
 
